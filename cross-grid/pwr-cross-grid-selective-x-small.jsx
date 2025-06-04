@@ -61,11 +61,19 @@ if (!comp || !(comp instanceof CompItem)) {
   //   { x: 18, y: 25 }
   // ];
 
+  // var renderList = [
+  //   { x: 2, y: 18 },
+  //   { x: 18, y: 18 },
+  //   { x: 2, y: 30 },
+  //   { x: 18, y: 30 }
+  // ];
+
+
   var renderList = [
-    { x: 2, y: 18 },
-    { x: 18, y: 18 },
-    { x: 2, y: 30 },
-    { x: 18, y: 30 }
+    { x: 2, y: 23 },
+    { x: 18, y: 23 },
+    { x: 2, y: 32 },
+    { x: 18, y: 32 }
   ];
 
   var contents = shapeLayer.property("Contents");
